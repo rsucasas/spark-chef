@@ -21,6 +21,7 @@ recipe           "worker", "Starts a Spark worker"
 recipe           "yarn", "Install for yarn"
 recipe           "libs", "Install spark jars to nodemanager hosts"
 recipe           "historyserver", "Installs/starts the Spark historyserver"
+recipe           "pyspark", "Install python libraries using anaconda virtualenv."
 
 attribute "java/jdk_version",
           :description =>  "Jdk version",
