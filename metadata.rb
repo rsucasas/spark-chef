@@ -30,6 +30,10 @@ attribute "java/install_flavor",
           :description =>  "Oracle (default) or openjdk",
           :type => 'string'
 
+attribute "hadoop_spark/dir",
+          :description => "Directory for installation",
+          :type => 'string'
+
 attribute "hadoop_spark/user",
           :description => "Username to run spark master/worker as",
           :type => 'string'
